@@ -1,0 +1,14 @@
+Testing the Initial Routes
+
+curl --data "title=test&link=http://test.com" "http://localhost:3000/posts"
+curl "http://localhost:3000/posts"
+
+Pre-loading Objects
+
+curl "http://localhost:3000/posts/<PostId>"
+i.e.
+curl "http://localhost:3000/posts/55bdad61122068b00d6b97ee"
+
+curl -X PUT "http://localhost:3000/posts/<POST ID>/upvote"
+i.e.
+curl -X PUT "http://localhost:3000/posts/55bdad61122068b00d6b97ee/upvote"
