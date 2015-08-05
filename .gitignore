@@ -45,3 +45,5 @@ Temporary Items
 # ryansalvador
 bin/
 node_modules/
+package.json
+npm-debug.log
