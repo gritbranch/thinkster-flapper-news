@@ -12,3 +12,22 @@ curl "http://localhost:3000/posts/55bdad61122068b00d6b97ee"
 curl -X PUT "http://localhost:3000/posts/<POST ID>/upvote"
 i.e.
 curl -X PUT "http://localhost:3000/posts/55bdad61122068b00d6b97ee/upvote"
+
+List of all necessary Node modules
+
+npm install -g express-generator
+
+express --ejs flapper-news
+
+cd flapper-news
+
+npm install
+
+npm install --save mongoose
+
+npm install jsonwebtoken --save
+
+npm install passport passport-local --save
+
+npm install express-jwt --save
+
