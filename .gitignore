@@ -47,3 +47,4 @@ bin/
 node_modules/
 package.json
 npm-debug.log
+.vscode/
